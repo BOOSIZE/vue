@@ -78,8 +78,9 @@ public class ChapterController
 	}
 
 	@RequestMapping("down")
-	public void down(String fileName, HttpServletRequest request, HttpServletResponse response)
+	public void down(HttpServletRequest request, HttpServletResponse response)
 	{
+		String fileName=request.getParameter("fileName");
 
 		File file=new File(uploadUrl+"/"+fileName);
 
@@ -102,8 +103,6 @@ public class ChapterController
 				response.setContentType("application/OCTET-STREAM");
 
 				fis = new FileInputStream(file);
-				//bis = new BufferedInputStream(new FileInputStream(file));
-				System.out.println(fis.available());
 				byte[] buffer = new byte[fis.available()];
 				OutputStream os = response.getOutputStream();
 				fis.read(buffer);
