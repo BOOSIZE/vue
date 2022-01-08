@@ -22,4 +22,5 @@ public interface AdminService
 	TableModel logout(HttpSession session);
 
 	TableModel getAllAdmin();
+
 }

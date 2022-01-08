@@ -2,6 +2,7 @@ package com.example.vue.service.impl;
 
 import com.example.vue.dao.AdminDao;
 import com.example.vue.entity.Admin;
+import com.example.vue.entity.PageData;
 import com.example.vue.entity.TableModel;
 import com.example.vue.service.AdminService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -188,4 +189,6 @@ public class AdminServiceImpl implements AdminService
 		}
 		return tableModel;
 	}
+
+
 }

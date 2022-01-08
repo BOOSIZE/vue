@@ -73,4 +73,7 @@ public class AdminController
 	{
 		return adminServiceImpl.getAllAdmin();
 	}
+
+
+
 }

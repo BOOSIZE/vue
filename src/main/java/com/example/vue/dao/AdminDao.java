@@ -1,7 +1,9 @@
 package com.example.vue.dao;
 
 import com.example.vue.entity.Admin;
+import com.example.vue.entity.PageData;
 import org.apache.ibatis.annotations.*;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
@@ -41,4 +43,7 @@ public interface AdminDao
 
 	@Select("SELECT * FROM ADMIN WHERE ROLE='2'")
 	List<Admin> getAllAdmin();
+
+
+
 }
