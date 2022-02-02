@@ -18,7 +18,7 @@ import java.io.IOException;
 import java.io.OutputStream;
 
 @Controller
-@RequestMapping("/api/chapter/")
+@RequestMapping("/chapter/")
 public class ChapterController
 {
 	@Autowired

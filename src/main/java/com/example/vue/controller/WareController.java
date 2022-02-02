@@ -17,7 +17,7 @@ import java.io.IOException;
 import java.io.OutputStream;
 
 @Controller
-@RequestMapping("/api/ware/")
+@RequestMapping("/ware/")
 public class WareController
 {
 	@Autowired

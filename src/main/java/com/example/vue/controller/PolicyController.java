@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-@RequestMapping("/api/policy/")
+@RequestMapping("/policy/")
 public class PolicyController
 {
 	@Autowired

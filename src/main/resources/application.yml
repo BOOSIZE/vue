@@ -8,8 +8,11 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://boosize25.mysql.rds.aliyuncs.com:3306/vue?serverTimezone=UTC
     url: jdbc:mysql://127.0.0.1:3306/vue?serverTimezone=UTC
+#    username: root
     username: SZP666
+#    password: Mysql123
     password: SZP666
     type: com.alibaba.druid.pool.DruidDataSource
     druid:
@@ -44,4 +47,5 @@ logging:
     com.example.vue.dao: debug
 
 
-fileUrl: D://uploads
+#fileUrl: /project/files
+fileUrl: /D://uploads

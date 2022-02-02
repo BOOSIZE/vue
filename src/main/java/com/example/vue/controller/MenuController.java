@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import javax.servlet.http.HttpSession;
 
 @Controller
-@RequestMapping("/api/menu/")
+@RequestMapping("/menu/")
 public class MenuController
 {
 	@Autowired
